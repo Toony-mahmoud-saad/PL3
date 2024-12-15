@@ -50,4 +50,4 @@ let main argv =
     let resultLabel = new Label(Text = "Results:", Dock = DockStyle.Top)
     let resultListBox = new ListBox(Dock = DockStyle.Fill)
 
-    form.Controls.AddRange [| resultListBox; resultLabel; searchButton; deleteButton; addButton; definitionTextBox; definitionLabel; wordTextBox; wordLabel |]v
+    form.Controls.AddRange [| resultListBox; resultLabel; searchButton; deleteButton; addButton; definitionTextBox; definitionLabel; wordTextBox; wordLabel |]
