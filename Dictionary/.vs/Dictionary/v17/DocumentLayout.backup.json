@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\u0627\u0644\u0645\u0646\u0647\u062C 4.1\\PL3\\Sec\\Project\\Repo\\Dictionary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DAF51E-804D-4BB5-902B-14F2A573137A}|Dictionary\\Dictionary.fsproj|d:\\\u0627\u0644\u0645\u0646\u0647\u062C 4.1\\pl3\\sec\\project\\repo\\dictionary\\dictionary\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{F6DAF51E-804D-4BB5-902B-14F2A573137A}|Dictionary\\Dictionary.fsproj|solutionrelative:dictionary\\program.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F6DAF51E-804D-4BB5-902B-14F2A573137A}|Dictionary\\Dictionary.fsproj|d:\\\u0627\u0644\u0645\u0646\u0647\u062C 4.1\\pl3\\sec\\project\\repo\\dictionary\\dictionary\\dictionary.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F6DAF51E-804D-4BB5-902B-14F2A573137A}|Dictionary\\Dictionary.fsproj|solutionrelative:dictionary\\dictionary.fsproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dictionary",
+              "DocumentMoniker": "D:\\\u0627\u0644\u0645\u0646\u0647\u062C 4.1\\PL3\\Sec\\Project\\Repo\\Dictionary\\Dictionary\\Dictionary.fsproj",
+              "RelativeDocumentMoniker": "Dictionary\\Dictionary.fsproj",
+              "ToolTip": "D:\\\u0627\u0644\u0645\u0646\u0647\u062C 4.1\\PL3\\Sec\\Project\\Repo\\Dictionary\\Dictionary\\Dictionary.fsproj",
+              "RelativeToolTip": "Dictionary\\Dictionary.fsproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001351|",
+              "WhenOpened": "2024-12-15T17:52:35.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.fs",
+              "DocumentMoniker": "D:\\\u0627\u0644\u0645\u0646\u0647\u062C 4.1\\PL3\\Sec\\Project\\Repo\\Dictionary\\Dictionary\\Program.fs",
+              "RelativeDocumentMoniker": "Dictionary\\Program.fs",
+              "ToolTip": "D:\\\u0627\u0644\u0645\u0646\u0647\u062C 4.1\\PL3\\Sec\\Project\\Repo\\Dictionary\\Dictionary\\Program.fs",
+              "RelativeToolTip": "Dictionary\\Program.fs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAuwF4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-15T17:52:24.372Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
