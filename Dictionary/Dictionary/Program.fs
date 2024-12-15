@@ -42,3 +42,12 @@ let main argv =
 
     let definitionLabel = new Label(Text = "Definition:", Dock = DockStyle.Top)
     let definitionTextBox = new TextBox(Dock = DockStyle.Top)
+
+    let addButton = new Button(Text = "Add/Update", Dock = DockStyle.Top)
+    let deleteButton = new Button(Text = "Delete", Dock = DockStyle.Top)
+    let searchButton = new Button(Text = "Search", Dock = DockStyle.Top)
+
+    let resultLabel = new Label(Text = "Results:", Dock = DockStyle.Top)
+    let resultListBox = new ListBox(Dock = DockStyle.Fill)
+
+    form.Controls.AddRange [| resultListBox; resultLabel; searchButton; deleteButton; addButton; definitionTextBox; definitionLabel; wordTextBox; wordLabel |]
