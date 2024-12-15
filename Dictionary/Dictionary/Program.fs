@@ -51,3 +51,16 @@ let main argv =
     let resultListBox = new ListBox(Dock = DockStyle.Fill)
 
     form.Controls.AddRange [| resultListBox; resultLabel; searchButton; deleteButton; addButton; definitionTextBox; definitionLabel; wordTextBox; wordLabel |]
+
+    // Add or update word event
+    addButton.Click.Add(fun _ ->
+        let word = wordTextBox.Text.Trim()
+        let definition = definitionTextBox.Text.Trim()
+        if not (String.IsNullOrWhiteSpace(word) || String.IsNullOrWhiteSpace(definition)) then
+            dictionary <- dictionary.Add(word.ToLower(), definition)
+            MessageBox.Show(sprintf "'%s' added/updated successfully!" word) |> ignore
+            saveDictionaryToFile(dictionaryFilePath)
+        else
+            MessageBox.Show("Word and definition cannot be empty.") |> ignore
+    )
+
