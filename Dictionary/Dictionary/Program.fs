@@ -71,3 +71,21 @@ let main argv =
     else
         MessageBox.Show(sprintf "'%s' does not exist in the dictionary." word) |> ignore
 )
+// Search word event
+    searchButton.Click.Add(fun _ ->
+        let keyword = wordTextBox.Text.Trim().ToLower()
+        resultListBox.Items.Clear()
+
+        let results =
+            dictionary
+            |> Map.filter (fun key _ -> key.Contains(keyword))
+
+        if results.Count > 0 then
+            for kvp in results do
+                resultListBox.Items.Add(sprintf "%s: %s" kvp.Key kvp.Value) |> ignore
+        else
+            MessageBox.Show("No matching results found.") |> ignore
+    )
+
+    Application.Run(form)
+    0
