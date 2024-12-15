@@ -29,3 +29,16 @@ let loadDictionaryFromFile (filePath: string) =
 // Initialize the dictionary by loading data from a file
 let dictionaryFilePath = "dictionary.json"
 loadDictionaryFromFile(dictionaryFilePath)
+
+// Create the GUI
+[<STAThread>]
+[<EntryPoint>]
+let main argv =
+    let form = new Form(Text = "F# Digital Dictionary", Width = 600, Height = 400)
+
+    // Create controls
+    let wordLabel = new Label(Text = "Word:", Dock = DockStyle.Top)
+    let wordTextBox = new TextBox(Dock = DockStyle.Top)
+
+    let definitionLabel = new Label(Text = "Definition:", Dock = DockStyle.Top)
+    let definitionTextBox = new TextBox(Dock = DockStyle.Top)
